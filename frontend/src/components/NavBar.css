@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 1rem;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: opacity 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    opacity: 0.8;
+  }
+  

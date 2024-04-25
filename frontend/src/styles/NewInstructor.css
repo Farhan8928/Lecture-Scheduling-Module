@@ -1,0 +1,54 @@
+/* NewInstructor.css */
+
+.new-instructor-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.new-instructor-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.new-instructor-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-instructor-form label {
+  margin-bottom: 10px;
+}
+
+.new-instructor-form input[type="text"],
+.new-instructor-form input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.new-instructor-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-instructor-form button:hover {
+  background-color: #0056b3;
+}
+
+.new-instructor-form p {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .new-instructor-form {
+    max-width: 90%;
+  }
+}

@@ -1,0 +1,81 @@
+.admin-panel-container {
+  padding: 20px;
+  text-align: center; /* Center align content */
+}
+
+.admin-panel-heading {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.admin-row {
+  display: flex;
+  justify-content: space-between; /* Distribute cards evenly */
+  margin-bottom: 20px;
+}
+
+.admin-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1; /* Adjust card width */
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+.admin-section-heading {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.admin-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  width: 100%; /* Button takes full width */
+}
+
+.admin-button:hover {
+  background-color: #0056b3;
+}
+
+.admin-link {
+  text-decoration: none;
+}
+/* AdminPanel.css */
+
+/* Define general styles for the admin cards */
+.admin-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1; /* Adjust card width */
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+/* Define styles for small screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .admin-row {
+    flex-direction: column; /* Display cards vertically */
+  }
+
+  .admin-card {
+    margin-bottom: 20px; /* Add space between cards */
+  }
+}

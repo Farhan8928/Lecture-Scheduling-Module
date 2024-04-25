@@ -1,0 +1,96 @@
+/* AssignedLecturesList.css */
+
+.assigned-lectures-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.assigned-lectures-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.assigned-lectures-container table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.assigned-lectures-container th,
+.assigned-lectures-container td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.assigned-lectures-container th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.assigned-lectures-container td button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.assigned-lectures-container td button:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.loading p {
+  animation: loadingAnimation 1s infinite alternate;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes loadingAnimation {
+  from {
+    opacity: 0.5;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .assigned-lectures-container {
+    padding: 10px;
+  }
+
+  .assigned-lectures-container h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,110 @@
+/* InstructorList.css */
+
+.instructor-list {
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-header h2 {
+  font-size: 24px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.instructor-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.instructor-table th, .instructor-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.instructor-table th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.instructor-table td {
+  vertical-align: middle;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.actions-header {
+  text-align: center;
+}
+
+.edit-button, .delete-button, .save-button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.edit-button:hover, .delete-button:hover, .save-button:hover {
+  filter: brightness(90%);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .instructor-list {
+    padding: 10px;
+  }
+
+  .list-header h2 {
+    font-size: 20px;
+  }
+
+  .add-button {
+    font-size: 14px;
+  }
+
+  .edit-button, .delete-button, .save-button {
+    font-size: 12px;
+  }
+}

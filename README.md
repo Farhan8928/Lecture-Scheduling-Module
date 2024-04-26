@@ -15,6 +15,8 @@ This is a lecture scheduling module designed to manage courses and lectures for 
 
 - Instructor Panel:
   1. View list of assigned lectures with dates and course names.
+     
+## Project Video Link https://www.loom.com/share/5b4b367085cd422c9cf381c4a91642c5?sid=4969b77e-4851-498e-aea5-465d67b345ec
 
 ## Project Structure
 
